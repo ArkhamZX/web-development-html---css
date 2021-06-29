@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "node-sass": "^6.0.0",
+    "pkg": "^5.2.1"
+  },
+  "name": "webdesign",
+  "version": "1.0.0",
+  "description": "cools",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArkhamZX/web-development-html---css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArkhamZX/web-development-html---css/issues"
+  },
+  "homepage": "https://github.com/ArkhamZX/web-development-html---css#readme"
+}

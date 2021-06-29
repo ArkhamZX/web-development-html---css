@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  font-size: 62.5%;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}
+
+.container-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, rgba(72, 204, 105, 0.95), rgba(109, 163, 65, 0.95));
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+@media (min-width: 62rem) {
+  .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+img {
+  width: 10rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

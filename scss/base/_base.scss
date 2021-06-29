@@ -1,0 +1,28 @@
+// COLOR VARIABLES
+$primary: #48cc69;
+$secondary: #6da341;
+
+// FONT VARIABLES
+$font-primary: 'Nunito', sans-serif;
+$font-display: 'Josefin Sans', sans-serif;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    font-size: 62.5%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}

@@ -1,0 +1,52 @@
+.container-nav
+{
+    display: flex;
+    align-items: center;
+}
+
+.navbar
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    @include gradient;
+}
+
+.navbar-collapse
+{
+    flex-basis: 100%;
+    flex-grow: 1;
+
+    @media (min-width: 62rem)
+    {
+        display: flex !important;
+        flex-basis: auto;
+    }
+}
+
+.navbar-nav
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.fixed-top
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+img
+{
+    width: 10rem;
+}
+
+.nav-link
+{
+    text-decoration: none;
+    color: white;
+}
