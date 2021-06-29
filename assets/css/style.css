@@ -22,10 +22,19 @@ body {
 .container-nav {
   display: flex;
   align-items: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+@media (max-width: 31.25rem) {
+  .container-nav {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .navbar {
   position: relative;
+  font-size: 1.7rem;
   display: flex;
   flex-direction: column;
   background: linear-gradient(to right, rgba(72, 204, 105, 0.95), rgba(109, 163, 65, 0.95));
@@ -34,12 +43,6 @@ body {
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
-}
-@media (min-width: 62rem) {
-  .navbar-collapse {
-    display: flex !important;
-    flex-basis: auto;
-  }
 }
 
 .navbar-nav {
@@ -57,7 +60,7 @@ body {
 }
 
 img {
-  width: 10rem;
+  width: 7rem;
 }
 
 .nav-link {
